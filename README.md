@@ -23,12 +23,12 @@ Before you begin, ensure you have the following installed:
 ### Installation
 
 1. Clone this repository to your local machine:
-
+https://github.com/your-username/Expense-Tracker.git
     
     
 
 2. Set up the database:
-    - Install MySQL and create a new database called expensify.
+    - Install MySQL and create a new database called expense_manager.
     - Run the create_tables.sql script to create necessary tables.
 
 3. Configure the database connection:
