@@ -1,4 +1,4 @@
-package edu.GU.expensemanager.util;
+package com.user.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
