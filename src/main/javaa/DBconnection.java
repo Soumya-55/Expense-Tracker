@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/expensemanager"; // Database name should be expensemanager
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/user-web-app"; // Database name should be user-web-app. 
     private static final String USER = "root"; // MySQL username
     private static final String PASSWORD = "Somya@2236"; // MySQL password
 
