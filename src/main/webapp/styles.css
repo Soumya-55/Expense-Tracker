@@ -1,0 +1,15 @@
+/* Custom styles to override Bootstrap or add your unique design */
+
+/* Example of overriding Bootstrap's default button color */
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Custom container */
+.container {
+    max-width: 900px;
+    margin-top: 50px;
+}
+
+/* Add more custom styles as needed */
