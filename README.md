@@ -139,3 +139,12 @@ CSS: Custom styling for a professional look and feel.
 Bootstrap: A front-end framework for responsive and mobile-first design.
 
 JavaScript: For handling form validation and dynamic error messages.
+##HOW TO RUN THE PROJECT:
+Follow these steps to run the project locally on your system:
+
+1.Clone the repository:
+git clone https://github.com/your-username/Expense-Tracker.git
+
+2.Navigate to the project folder.
+
+3.Open Login.html or Register.html in your browser.
