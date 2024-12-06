@@ -120,3 +120,22 @@ Create a New Java Project:
 Click on File -> New -> Java Project to create a new project.
 Choose a project name, and the IDE will automatically set up the project structure for you.
 
+## Features of ExpenseManager:
+- **Responsive Design**: The user interface is responsive, providing an optimal user experience on both desktop and mobile devices.
+- **Login and Registration Forms**: Simple and intuitive forms for user login and registration.
+- **Email Validation**: Validates the email format to ensure it is correct.
+- **Password Strength Validation**: Checks the password strength (weak, medium, or strong).
+- **Password Confirmation**: Ensures that the password and the confirm password fields match.
+- **Real-time Error Messages**: Displays dynamic error messages as the user interacts with the form fields.
+- **Bootstrap Components**: Utilizes Bootstrap components for a clean, professional design.
+- **Custom Styling**: Additional styling with custom CSS to enhance the user interface.
+- 
+- ##Technologies Used
+
+HTML: For structuring the content of the login and registration forms.
+
+CSS: Custom styling for a professional look and feel.
+
+Bootstrap: A front-end framework for responsive and mobile-first design.
+
+JavaScript: For handling form validation and dynamic error messages.
