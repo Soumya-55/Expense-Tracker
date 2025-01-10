@@ -14,6 +14,14 @@
 <body>
     <div class="container mt-5">
         <h2 class="text-center">Login</h2>
+
+        <!-- Display Error Message if any -->
+        <c:if test="${not empty errorMessage}">
+            <div class="alert alert-danger">
+                ${errorMessage}
+            </div>
+        </c:if>
+
         <form id="loginForm" action="loginServlet" method="POST" onsubmit="return validateLoginForm()">
             <!-- Username -->
             <div class="mb-3">

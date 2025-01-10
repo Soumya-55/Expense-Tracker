@@ -1,3 +1,5 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,16 +15,24 @@
 <body>
     <div class="container mt-5">
         <h2 class="text-center">User Registration</h2>
+
+        <!-- Display error message if it exists -->
+        <c:if test="${not empty errorMessage}">
+            <div class="alert alert-danger">
+                ${errorMessage}
+            </div>
+        </c:if>
+
         <form id="registrationForm" action="registerServlet" method="POST" onsubmit="return validateForm()">
             <div class="mb-3">
                 <label for="username" class="form-label">Username</label>
-                <input type="text" class="form-control" id="username" name="username" required>
+                <input type="text" class="form-control" id="username" name="username" value="${param.username}" required>
                 <div class="invalid-feedback">Please provide a valid username.</div>
             </div>
 
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" name="email" required>
+                <input type="email" class="form-control" id="email" name="email" value="${param.email}" required>
                 <div class="invalid-feedback">Please provide a valid email address.</div>
             </div>
 
@@ -40,6 +50,7 @@
 
             <button type="submit" class="btn btn-primary w-100">Register</button>
         </form>
+
         <p class="mt-3 text-center">Already have an account? <a href="login.html">Login here</a></p>
     </div>
 
