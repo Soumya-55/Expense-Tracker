@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/Expense-Tracker.git
+    git clone https://github.com/Soumya-5//Expense-Tracker.git
     ```
 
 2. Set up the database:
@@ -119,4 +119,44 @@ Create a New Java Project:
 
 Click on File -> New -> Java Project to create a new project.
 Choose a project name, and the IDE will automatically set up the project structure for you.
+
+## Features of ExpenseManager:
+- **Responsive Design**: The user interface is responsive, providing an optimal user experience on both desktop and mobile devices.
+- **Login and Registration Forms**: Simple and intuitive forms for user login and registration.
+- **Email Validation**: Validates the email format to ensure it is correct.
+- **Password Strength Validation**: Checks the password strength (weak, medium, or strong).
+- **Password Confirmation**: Ensures that the password and the confirm password fields match.
+- **Real-time Error Messages**: Displays dynamic error messages as the user interacts with the form fields.
+- **Bootstrap Components**: Utilizes Bootstrap components for a clean, professional design.
+- **Custom Styling**: Additional styling with custom CSS to enhance the user interface.
+- 
+- ##Technologies Used
+
+HTML: For structuring the content of the login and registration forms.
+
+CSS: Custom styling for a professional look and feel.
+
+Bootstrap: A front-end framework for responsive and mobile-first design.
+
+JavaScript: For handling form validation and dynamic error messages.
+##HOW TO RUN THE PROJECT:
+Follow these steps to run the project locally on your system:
+
+1.Clone the repository:
+git clone https://github.com/Soumya-55/Expense-Tracker.git
+
+2.Navigate to the project folder.
+
+3.Open Login.html or Register.html in your browser.
+
+**FINAL REVIEW**
+
+| **Review Item**                | **Status** | **Remarks**                          
+|--------------------------------|------------|--------------------------------------
+| Project Requirements Verified  | ✅         | All requirements implemented.            |
+| Code Review Completed          | ✅         | Code is clean and follows standards.     |
+| Functionality Tests Conducted  | ✅         | All features tested and working.         |
+| UI/UX Review Completed         | ✅         | UI is responsive and user-friendly.      |                                              
+| Database Integration Verified  | ✅         | Schema optimized.|
+| Deployment Readiness Confirmed | ✅         | Successfully deployed locally.           
 
